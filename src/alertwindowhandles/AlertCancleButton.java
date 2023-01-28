@@ -17,7 +17,7 @@ public class AlertCancleButton {
 	  driver.findElement(By.xpath("//*[@id=\"node-103\"]/div/div[1]/div/div/button")).click();
 	  Thread.sleep(5000);
 	  Alert alt = driver.switchTo().alert();
-	  alt.sendKeys("Bhargavi");
+	  alt.sendKeys("chinna");
 	  alt.accept();
 	 
   }
